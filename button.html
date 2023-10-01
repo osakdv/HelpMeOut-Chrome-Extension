@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Buttons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="webdom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- <script src='main.js'></script> -->
+  </head>
+  <body>
+    <div class="recorder-controller-wrapper">
+      <div class="timer-container">
+        <p class="time">00:03:45</p>
+        <span class="time-dot">
+          <svg
+            width="10"
+            height="10"
+            viewBox="0 0 10 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="10" height="10" rx="5" fill="#C00404" />
+          </svg>
+        </span>
+      </div>
+
+      <!-- line break -->
+      <div class="line-break"></div>
+
+      <div class="controllers-wrapper">
+        <div class="control" id="pause-btn">
+            <span class="ctr-icon">
+                <i class="fa-solid fa-pause"></i>
+            </span>
+            <p class="ctr-title">Pause</p>
+        </div>
+
+        <div class="control" id="stop-btn">
+            <span class="ctr-icon">
+                <i class="fa-solid fa-square"></i>
+            </span>
+            <p class="ctr-title">Stop</p>
+        </div>
+
+        <div class="control" id="camera-btn">
+            <div class="ctrl-icon-opt">
+                <span class="ctr-icon">
+                    <i class="fa-solid fa-video"></i>
+                </span>
+                <div class="span opt"></div>
+            </div>
+            <p class="ctr-title">Camera</p>
+        </div>
+
+        <div class="control" id="mic-btn">
+            <div class="ctrl-icon-opt">
+                <span class="ctr-icon">
+                    <i class="fa-solid fa-microphone"></i>
+                </span>
+                <div class="span opt"></div>
+            </div>
+            <p class="ctr-title">Mic</p>
+        </div>
+
+        <div class="control" id="delete-btn">
+            <span class="ctr-icon">
+                <i class="fa-solid fa-trash-can"></i>
+            </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

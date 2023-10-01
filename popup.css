@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: .85rem;
+}
+
+.icon i {
+    font-size: 1.2rem;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    width: 260px;
+    background-color: white;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    padding: 32px 24px 24px 24px;
+    position: relative;
+}
+
+/*  */
+.message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    width: 100%;
+    padding: .5em 0;
+    text-align: center;
+    background-color: #100A42 !important;
+    color: white;
+    display: none;
+}
+
+header .logo-setting-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-setting-container .logo img {
+    width: 120px;
+}
+
+.logo-setting-container .setting-and-close-btn {
+    display: flex;
+    gap: 1em;
+}
+
+.about-extension {
+    margin-top: 1em;
+    color: #413C6D;
+}
+
+.start-recording-container {
+    margin-top: 2.5em;
+}
+
+.start-recording-container .media-screen {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+.media-screen .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.media p {
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.active-selection {
+    color: #928FAB;
+}
+
+.active-selection svg path  {
+    stroke: #928FAB !important;
+}
+
+.non-active-selection {
+    color: #100A42;
+}
+
+.non-active-selection svg  path {
+    stroke: #100A42 !important;
+}
+
+.start-record-container {
+    margin-top: 1.8em;
+}
+
+.camera-audio-media-selection .media-s-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #100A42;
+    color: #100A42;
+    margin-top: 1.5em;
+    border-radius: 12px;
+}
+
+.media-s-btn .icons-title {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-left: 1.5em;
+}
+
+.icons-title p {
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.start-record-container .toggle-container {
+    width: 42px;
+    height: 25px;
+    margin-right: 1.5em;
+    background-color: rgb(178, 187, 194);
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    border-radius: 12px;
+}
+
+.toggle-container .toggler {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.toggle-active {
+    justify-content: flex-end;
+    padding-right: 3px;
+    background-color: #100A42 !important;
+}
+
+#start-recording-btn {
+    height: 50px;
+    width: 100%;
+    background-color: #100A42;
+    border-radius: 12px;
+    margin-top: 1.5em;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: .9rem;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.recorder-controller-wrapper {
+    height: 55px;
+    padding: 1em 2.5em;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 1.3em;
+    bottom: 0;
+    transform: translateX(30vw);
+    bottom: 0;
+    margin-bottom: 4em;
+    background-color: #141414;
+    border-radius: 200px;
+    border: 7px solid rgb(218, 217, 217);
+}
+
+.timer-container {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+.timer-container p {
+    color: white;
+    font-size: 1rem;
+}
+
+.line-break {
+    height: 100%;
+    border-right: 1px solid #E8E8E8;
+    
+}
+
+.controllers-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5em;
+    margin-top: 10px;
+}
+
+.controllers-wrapper .control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.control .ctr-icon {
+    background-color: white;
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control  p {
+    color: white;
+    font-size: .8rem;
+    line-height: 0%;
+}
+
+#delete-btn .ctr-icon {
+    background: #4B4B4B !important;
+}
+
+#delete-btn .ctr-icon i {
+    color: rgba(190, 190, 190, 1);
+}
